@@ -7,5 +7,5 @@ spl_autoload_register(function ($nome_da_classe)
     {
         include $arquivo;
     } else
-    exit('Not Found.  Try Again: ' . $arquivo . "<br />");
+    exit('Not Found. Try Again: ' . $arquivo . "<br />");
 });
